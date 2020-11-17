@@ -50,7 +50,7 @@ else reset();
       <StatusBar barStyle="light-content"/>
       <SafeAreaView style={styles.safeArea}>
         <View style={styles.backgroundTitle} />
-        <Text style={styles.titleApp}>Cotizador</Text>
+        <Text style={styles.titleApp}>Cotizador prestamo</Text>
         <Form setCapital={setCapital} setInteres={setInteres} setMes={setMes}/>
       </SafeAreaView>
       <ResultCalculate 
